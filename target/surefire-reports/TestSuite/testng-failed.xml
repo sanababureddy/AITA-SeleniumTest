@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="Gmail(failed)" parallel="tests">
+    <classes>
+      <class name="GmailTaskTest">
+        <methods>
+          <include name="invokeBrowser"/>
+          <include name="gmailLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- GmailTaskTest -->
+    </classes>
+  </test> <!-- Gmail(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

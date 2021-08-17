@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests">
+    <test name="Gmail">
+        <classes>
+            <class name="GmailTaskTest" />
+        </classes>
+    </test>
+    <test name="Logo">
+        <classes>
+        <class name="VerifyLogoTest" />
+        </classes>
+    </test>
+    <test name="Navigation">
+        <classes>
+            <class name="NavigationTest"/>
+        </classes>
+    </test>
+</suite>
