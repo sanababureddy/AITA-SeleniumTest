@@ -10,7 +10,8 @@ public class base {
     public String projectPath = System.getProperty("user.dir");
 
     public WebDriver initializeDriver() {
-        System.setProperty("webdriver.chrome.driver", projectPath + "//src//main//resources//chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", projectPath + "//src//main//resources//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", projectPath + "//src//main//resources//chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
