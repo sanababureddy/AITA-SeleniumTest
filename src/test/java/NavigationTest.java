@@ -17,8 +17,6 @@ public class NavigationTest  extends base {
         driver = initializeDriver();
         driver.get("https://www.google.com/");
     }
-
-
     @Test
     public void LogoTest() throws InterruptedException {
         Actions actions = new Actions(driver);
