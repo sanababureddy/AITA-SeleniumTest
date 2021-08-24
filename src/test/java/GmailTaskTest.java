@@ -35,7 +35,6 @@ public class GmailTaskTest extends base{
         actions.sendKeys(passwrod).build().perform();
         l.Next().click();
         Thread.sleep(3000);
-
         GmailUIObjects ui = new GmailUIObjects(driver);
         ui.searchBox().click();
         actions.sendKeys("Google Community ").click().build().perform();
