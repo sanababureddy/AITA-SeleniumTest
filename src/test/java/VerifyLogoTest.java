@@ -18,6 +18,8 @@ public class VerifyLogoTest extends base {
         driver = initializeDriver();
         driver.get("https://www.google.com/");
     }
+    
+    
 
     @Test
     public void LogoTest() throws InterruptedException {
